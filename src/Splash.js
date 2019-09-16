@@ -11,7 +11,7 @@ function Splash() {
                         <p class="mt-3 small text-light ">Tu tiempo de lavado va por nuestra cuenta</p>
                 </div>
             </div>
-</div>
+    </div>
     )
 }
 

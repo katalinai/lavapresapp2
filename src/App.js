@@ -3,18 +3,10 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Splash from "./Splash";
 import Inicio from "./Inicio";
+import Paquetes from "./Paquetes";
+import Pedido from "./Pedido";
+import Exito from "./Exito";
 
-function Index() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
 
 function AppRouter() {
   return (
@@ -22,8 +14,10 @@ function AppRouter() {
       <div>
         
         <Route path="/" exact component={Splash} />
-        <Route path="/Inicio/" component={Inicio} />
-        <Route path="/users/" component={Users} />
+        <Route path="/inicio/" component={Inicio} />
+        <Route path="/paquetes/" component={Paquetes} />
+        <Route path="/pedido/" component={Pedido}/>
+        <Route path="/exito/" component={Exito}/>
       </div>
     </Router>
   );
