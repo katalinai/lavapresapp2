@@ -1,5 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import LogoBco from "./assets/logo-bco.png";
+import Paquete01 from "./assets/paquete01.png";
+import Paquete02 from "./assets/paquete02.png";
+import Paquete03 from "./assets/paquete03.png";
 
 function Paquetes() {
     return (
@@ -7,7 +11,7 @@ function Paquetes() {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-primary">
                 <a class="navbar-brand mx-auto" href="#">
-                    <img src="../assets/logo-bco.png" height="24" alt=""/>
+                    <img src={LogoBco} height="24" alt=""/>
                 </a>
             </nav>
     
@@ -16,7 +20,7 @@ function Paquetes() {
             <section class="row">
                                 <div class="col ">
                                     <a class="active" href="#">
-                                        <img src="../assets/paquete01.png" class="img-fluid" alt=""/>
+                                        <img src={Paquete01} class="img-fluid" alt=""/>
                                         
                                     </a>
                                 </div>   
@@ -25,7 +29,7 @@ function Paquetes() {
                     <div class="col ">
                         <a class="active" href="#">
                             
-                            <img src="../assets/paquete02.png" class="img-fluid" alt=""/>
+                            <img src={Paquete02} class="img-fluid" alt=""/>
                             
                         </a>
                     </div>   
@@ -33,7 +37,7 @@ function Paquetes() {
             <section class="row">
                     <div class="col ">
                         <a class="active" href="#">
-                            <img src="../assets/paquete03.png" class="img-fluid" alt=""/>
+                            <img src={Paquete03} class="img-fluid" alt=""/>
                             
                         </a>
                     </div>   

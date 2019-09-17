@@ -1,5 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import LogoBco from "./assets/logo-bco.png";
+import TorreA from "./assets/torreA.png";
+import TorreB from "./assets/torreB.png";
 
 function Inicio() {
     return(
@@ -7,7 +10,7 @@ function Inicio() {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-primary">
                 <a class="navbar-brand mx-auto" href="#">
-                    <img src="../assets/logo-bco.png" height="24" alt=""/>
+                    <img src={LogoBco} height="24" alt=""/>
                 </a>
             </nav>
            
@@ -18,13 +21,13 @@ function Inicio() {
                 <section class="row">
                     <div class="col ">
                         <a class="active" href="#">
-                            <img src="../assets/torreA.png" alt=""/>
+                            <img src={TorreA} alt=""/>
                             <p class="small">TORRE A</p>
                         </a>
                     </div>    
                     <div class="col">
                         <a href="#">
-                            <img src="../assets/torreB.png" alt=""/>
+                            <img src={TorreB} alt=""/>
                             <p class="small">TORRE B</p>
                         </a>
                     </div>  

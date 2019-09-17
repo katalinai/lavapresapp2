@@ -10,15 +10,14 @@ import Exito from "./Exito";
 
 function AppRouter() {
   return (
-    <Router>
-      <div>
+    <Router basename="/lavapresapp2">
         
         <Route path="/" exact component={Splash} />
         <Route path="/inicio/" component={Inicio} />
         <Route path="/paquetes/" component={Paquetes} />
         <Route path="/pedido/" component={Pedido}/>
         <Route path="/exito/" component={Exito}/>
-      </div>
+      
     </Router>
   );
 }

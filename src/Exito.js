@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import LogoFinal from "./assets/icono-lavapres-blanco.svg";
+import Calendario from "./assets/calendario.svg";
 
 function Exito() {
     return (
@@ -8,7 +10,7 @@ function Exito() {
                 
                 <section class="row">
                         <div class="col ">
-                            <img class="mt-5 rounded mx-auto d-block" src="../assets/icono-lavapres-blanco.svg" alt="icono lavapres blanco" 
+                            <img class="mt-5 rounded mx-auto d-block" src={LogoFinal} alt="icono lavapres blanco" 
                             width="100px"/>
                         </div>    
                 </section>
@@ -24,7 +26,7 @@ function Exito() {
                 </div>  
                 <section class="row justify-content-center mt-n3">
                         <div>
-                            <img  src="../assets/calendario.svg" alt="icono lavapres blanco" width="40px"/>
+                            <img  src={Calendario} alt="icono lavapres blanco" width="40px"/>
                         </div>
                         <div>
                             <p class="text-success text-left small font-weight-bold" >Sábado 21 de septiembre <br/> 17:00</p>
