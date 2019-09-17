@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Inicio() {
     return(
@@ -42,8 +43,9 @@ function Inicio() {
                         </div>
                     
                 </section>
-                
-                <button type="button" class="btn btn-primary  ">SIGUIENTE <span class="oi oi-arrow-right"></span></button>
+                <Link to="/paquetes/">
+                    <button type="button" class="btn btn-primary  ">SIGUIENTE <span class="oi oi-arrow-right"></span></button>
+                </Link>
             </div>
         </div>    
     </div>

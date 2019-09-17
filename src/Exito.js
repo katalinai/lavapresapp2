@@ -1,9 +1,10 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Exito() {
     return (
   
-            <div class="bg-shappire">
+            <div class="bg-shappire height100">
                 
                 <section class="row">
                         <div class="col ">
@@ -12,8 +13,8 @@ function Exito() {
                         </div>    
                 </section>
              
-                <div class="container text-primary text-center mt-5">
-                    <h1 class="color-white mensaje-exitoso">¡LISTO!</h1>
+                <div class="container text-light text-center mt-5">
+                    <h1 class="color-white  mensaje-exitoso">¡LISTO!</h1>
                     <p class="color-white font-weight-bold">TU PEDIDO FUE EXITOSO</p>
                 </div>
               
@@ -31,11 +32,15 @@ function Exito() {
                 </section>
                 
                 <div class="text-center mt-4">
-                    <button type="button" class="btn bg-degradado "><span class=" small font-weight-bold">Nuevo pedido</span></button>
+                    <Link to="/inicio/">
+                        <button type="button" class="btn bg-degradado "><span class=" small font-weight-bold">Nuevo pedido</span></button>
+                    </Link>
                 </div>
               
                 <div class="text-center  font-weight-bold mt-3">  
-                    <button type="button" class="btn btn-primary "><span class="small font-weight-bold">Cerrar</span></button>
+                    <Link to="/">
+                        <button type="button" class="btn btn-primary "><span class="small font-weight-bold">Cerrar</span></button>
+                    </Link>
                 </div>  
             </div>    
         

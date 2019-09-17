@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Pedido() {
     return (
@@ -66,8 +67,12 @@ function Pedido() {
                 </div>
             
             <div>
-                <button type="button" class="btn btn-primary mt-2">Finalizar</button>
-                <button type="button" class="btn btn-outline-primary mt-3">Cancelar</button>
+                <Link to="/exito/">
+                    <button type="button" class="btn btn-primary mt-2">Finalizar</button>
+                </Link>
+                <Link to="/inicio/">
+                    <button type="button" class="btn btn-outline-primary mt-3">Cancelar</button>
+                </Link>    
             </div>
         </div>  
 

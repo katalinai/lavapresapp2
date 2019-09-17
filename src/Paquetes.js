@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Paquetes() {
     return (
@@ -15,7 +16,7 @@ function Paquetes() {
             <section class="row">
                                 <div class="col ">
                                     <a class="active" href="#">
-                                        <img src="../assets/paquete01.png" alt=""/>
+                                        <img src="../assets/paquete01.png" class="img-fluid" alt=""/>
                                         
                                     </a>
                                 </div>   
@@ -23,7 +24,8 @@ function Paquetes() {
             <section class="row">
                     <div class="col ">
                         <a class="active" href="#">
-                            <img src="../assets/paquete02.png" alt=""/>
+                            
+                            <img src="../assets/paquete02.png" class="img-fluid" alt=""/>
                             
                         </a>
                     </div>   
@@ -31,24 +33,21 @@ function Paquetes() {
             <section class="row">
                     <div class="col ">
                         <a class="active" href="#">
-                            <img src="../assets/paquete03.png" alt=""/>
+                            <img src="../assets/paquete03.png" class="img-fluid" alt=""/>
                             
                         </a>
                     </div>   
             </section>
             
                 <section>
-                    <tr>
-                            <td>
-                            <input type="checkbox" name="myTextEditBox" value="checked" />  ACEPTO LOS TERMINOS & CONDICIONES
-                            </td>
-                            <br/>
-                            <br/>
-                            <div>                                                     
-                                    <button type="button" class="btn btn-primary  "> Sigamos<span class="oi oi-arrow-right"></span></button>
-                                    
-                                    </div>  
-                    </tr>
+                    <input type="checkbox" name="myTextEditBox" value="checked" />  ACEPTO LOS TERMINOS & CONDICIONES
+                    <div>                                                     
+                        <Link to="/pedido/">
+                            <button type="button" class="btn btn-primary mt-3"> Sigamos
+                            <span class="oi oi-arrow-right"></span></button>
+                        </Link>            
+                    </div>  
+                 
 
                 </section>
             
