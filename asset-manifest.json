@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lavapresapp2/static/css/main.f0850378.chunk.css",
-    "main.js": "/lavapresapp2/static/js/main.530af108.chunk.js",
-    "main.js.map": "/lavapresapp2/static/js/main.530af108.chunk.js.map",
+    "main.js": "/lavapresapp2/static/js/main.1f0cfe21.chunk.js",
+    "main.js.map": "/lavapresapp2/static/js/main.1f0cfe21.chunk.js.map",
     "runtime~main.js": "/lavapresapp2/static/js/runtime~main.c2df91df.js",
     "runtime~main.js.map": "/lavapresapp2/static/js/runtime~main.c2df91df.js.map",
     "static/js/2.4049ad4f.chunk.js": "/lavapresapp2/static/js/2.4049ad4f.chunk.js",
     "static/js/2.4049ad4f.chunk.js.map": "/lavapresapp2/static/js/2.4049ad4f.chunk.js.map",
     "index.html": "/lavapresapp2/index.html",
-    "precache-manifest.b88ad60fdea369a2acf2c338c642e279.js": "/lavapresapp2/precache-manifest.b88ad60fdea369a2acf2c338c642e279.js",
+    "precache-manifest.b58b1e8612208df93b8fc1ad17ca4688.js": "/lavapresapp2/precache-manifest.b58b1e8612208df93b8fc1ad17ca4688.js",
     "service-worker.js": "/lavapresapp2/service-worker.js",
     "static/css/main.f0850378.chunk.css.map": "/lavapresapp2/static/css/main.f0850378.chunk.css.map",
     "static/media/calendario.svg": "/lavapresapp2/static/media/calendario.a5cce2cd.svg",
@@ -17,7 +17,7 @@
     "static/media/style.css": "/lavapresapp2/static/media/open-iconic.eca2c267.svg",
     "static/media/paquete01.png": "/lavapresapp2/static/media/paquete01.6cf7172a.png",
     "static/media/paquete02.png": "/lavapresapp2/static/media/paquete02.3b238901.png",
-    "static/media/paquete03.png": "/lavapresapp2/static/media/paquete03.3b238901.png",
+    "static/media/paquete03.png": "/lavapresapp2/static/media/paquete03.21921bdc.png",
     "static/media/torreA.png": "/lavapresapp2/static/media/torreA.daea2f4b.png",
     "static/media/torreB.png": "/lavapresapp2/static/media/torreB.04347832.png"
   }
